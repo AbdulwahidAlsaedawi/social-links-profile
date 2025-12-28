@@ -20,7 +20,7 @@ body{
   background-color: var(--color-bg-card);
   border-radius: 0.625rem;
   text-align: center;
-  padding: 2.5rem 1.25rem;
+    padding: clamp(1.5rem, 5vw, 2.5rem) clamp(1rem, 3vw, 1.25rem);
 }
 
 .profile img {
@@ -74,7 +74,17 @@ footer.attribution {
   color: var(--color-text-muted);
 }
 
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
 footer.attribution a {
   color: var(--color-accent);
-  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .social-links a {
+    transition: none !important;
+  }
 }
