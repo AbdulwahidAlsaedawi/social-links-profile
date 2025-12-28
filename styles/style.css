@@ -14,26 +14,26 @@ body{
   padding: 40px 20px;
 }
 
-.container .image-para img {
+.profile img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin-bottom: 15px;
 }
 
-.container h1 {
+.profile h1 {
   font-size: 32px;
   color: #ffffff;
   margin: 10px 0;
 }
 
-.container p {
+.profile p {
   font-size: 18px;
   color: hsl(75, 94%, 57%);
   margin: 5px 0;
 }
 
-.container p.bio {
+.profile p.bio {
   font-size: 20px;
   color: #ffffff;
   margin: 20px 0 20px 0;
